@@ -82,7 +82,7 @@
                     <button onclick="toggleModal('trackModal')" class="px-4 py-2.5 rounded-lg text-sm font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-300 transition-all flex items-center gap-2">
                         <i data-lucide="search" class="w-4 h-4 text-slate-500"></i> Track Ticket
                     </button>
-                    <a href="{{ route('home') }}#file-complaint" class="px-5 py-2.5 rounded-lg text-sm font-bold text-white bg-gradient-to-r from-blue-700 to-indigo-800 hover:from-blue-800 hover:to-indigo-900 shadow-md shadow-blue-900/20 hover:shadow-lg transition-all flex items-center gap-2">
+                    <a href="{{ route('home') }}#file-complaint" class="px-5 py-2.5 rounded-lg text-sm font-bold text-white bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 shadow-md shadow-emerald-900/20 hover:shadow-lg transition-all flex items-center gap-2">
                         <i data-lucide="plus-circle" class="w-4 h-4"></i> File Grievance
                     </a>
                 </div>
@@ -122,7 +122,7 @@
             </div>
             <div class="space-y-3 pt-6 border-t border-slate-100">
                 <button onclick="toggleModal('mobileNav'); toggleModal('trackModal')" class="w-full py-3 rounded-lg text-sm font-semibold text-slate-700 bg-slate-100 text-center">Track Complaint</button>
-                <a href="{{ route('home') }}#file-complaint" onclick="toggleModal('mobileNav')" class="block w-full py-3 rounded-lg text-sm font-bold text-white bg-blue-800 text-center shadow-md">File Grievance</a>
+                <a href="{{ route('home') }}#file-complaint" onclick="toggleModal('mobileNav')" class="block w-full py-3 rounded-lg text-sm font-bold text-white bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-center shadow-md">File Grievance</a>
             </div>
         </div>
     </div>
