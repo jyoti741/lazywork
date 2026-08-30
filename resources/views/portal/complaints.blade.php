@@ -17,7 +17,7 @@
                 </p>
             </div>
 
-            <a href="{{ route('home') }}#file-complaint" class="px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-extrabold text-sm shadow-xl shadow-amber-500/20 transition-all flex items-center gap-2 shrink-0">
+            <a href="{{ route('home') }}#file-complaint" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-extrabold text-sm shadow-xl shadow-emerald-600/30 transition-all flex items-center gap-2 shrink-0 hover:scale-[1.02]">
                 <i data-lucide="plus-circle" class="w-5 h-5"></i>
                 Submit New Complaint
             </a>
